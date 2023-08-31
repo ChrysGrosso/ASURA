@@ -528,7 +528,7 @@ def generate_unigram_wordcloud3(df_clean, app_id):
 
         # Calculate the number of terms to be removed
         num_terms = len(sorted_exp_frequencies)
-        num_terms_to_remove = int(0.005 * num_terms)  # 5% of the total terms
+        num_terms_to_remove = int(0.001 * num_terms)  # 1% of the total terms
 
         # Separate the top word frequencies based on TF-IDF scores
         top_exp_frequencies = dict(sorted_exp_frequencies[num_terms_to_remove:])
