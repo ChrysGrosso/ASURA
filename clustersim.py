@@ -1,4 +1,4 @@
-#kmeans clustering
+8WORDS#kmeans clustering
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
@@ -160,7 +160,7 @@ def text_clustering(df, colonne, nb_cluster, ntherm):
 #word2vec
 
 def word_similarity(df_clean, app_id):
-    modele = Word2Vec(df_clean.clean_reviews,vector_size=2,window=5) #size = 2#for visualisation on 2 axes ; 2 axes #window= 5 termes-voisins#per_default=sg=0#min_count=1
+    modele = Word2Vec(df_clean.cleaned_words,vector_size=2,window=5) #size = 2#for visualisation on 2 axes ; 2 axes #window= 5 termes-voisins#per_default=sg=0#min_count=1
     words = modele.wv
     D = pd.DataFrame(words.vectors, columns=['V1', 'V2'], index=words.key_to_index.keys())#Transcription into vectors of the list of terms
     print(D.head(100))
