@@ -1,4 +1,4 @@
-8WORDS#kmeans clustering
+#kmeans clustering
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
