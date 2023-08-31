@@ -29,8 +29,8 @@ def generate_histogram(word_frequencies, title, num_words=50):
     df_histogram = pd.DataFrame({'Word': words, 'Normalized Frequency': frequencies})
 
     # Sort the DataFrame by frequency in descending order
-    df_histogram = df_histogram.sort_values(by='Normalized Frequency', ascending=False)
-    df_histogram.to_csv("Words_frequencies_global.csv", index=False, sep=";")
+    df_histogram.sort_values(by='Normalized Frequency', ascending=False)
+    
 
     fig = px.bar(x=words, y=frequencies, color_discrete_sequence=['blue'],
                  labels={'x': 'Words', 'y': 'Normalized frequency'})
