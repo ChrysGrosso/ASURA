@@ -109,7 +109,8 @@ en_stopwords.update(['good', 'better', 'great', 'lot', 'game', 'like', 'hmmm', '
                  'again', 'throughout', 'neither', 'not', 'am', 'whereafter', 'whoever', 'thereafter', 'this', 'both', 'few', 'more', 'if', 'six', 'part',
                  'without', 'he', 'from', 'go', 'why', 'and', 'perhaps', 'anyway', 'see', 'had', 'be', 'fire', 'yet', 'etc', 'hence', 'bill', 'must', 'for',
                  'nothing', 'whole', 'nine', 'latter', 'too', 'whether', 'least', 'front', 'nowhere', 'couldnt', 'down', 'anything', 'another', 'everywhere',
-                 'in', 'been', 'besides', 'could', 'hers', 'bottom', 'please', 'together', 'or', 'shall', "you'd", "why's",'mmmm', 'mmmmmm' ])
+                 'in', 'been', 'besides', 'could', 'hers', 'bottom', 'please', 'together', 'or', 'shall', "you'd", "why's",'mmmm', 'mmmmmm','play', 'played','playing',
+                     'fuck','really', 'review','negative','positive'])
 en_stopwords = [w for w in en_stopwords if w not in ['one', 'two', 'three']]
 
 with open('db/contra_dict.txt') as contra_dict:
