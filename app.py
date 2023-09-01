@@ -909,7 +909,7 @@ def main():
              """, unsafe_allow_html=True)
 
         st.subheader("Here is the journey:")
-        st.write("PAGE 1 - LOADING AND DISCOVERING DATA :  EXPLORE THE DATASET AND RETAIN RELEVANT REVIEWS")
+        st.write("PAGE 1 - LOADING AND DISCOVERING DATA :  DISCOVER THE DATASET AND RELEVANT REVIEWS RETAINED")
         st.write("PAGE 2 - SEMANTICS ANALYSIS : IDENTIFY AREAS OF ACTION")
         st.write("- Key subjects of customer satisfaction and dissatisfaction,")
         st.write("- Potential issues to be resolved,")
