@@ -7,6 +7,8 @@ A Streamlit app to download and analyze steam reviews (video games on PC)
 
     3/Download "en_core_web_sm" from Spacy (spacy -m download en_core_web_sm).
 
-    4/ With the virtual environment active, start the Streamlit application from your code editor's terminal (for example, Visual Studio) by entering the command "streamlit run app.py".
+    4/ With the virtual environment active, start the Streamlit application from your code editor's terminal by entering the command "streamlit run app.py".
 
 ![image](https://github.com/ChrysGrosso/ASURA/assets/114347666/6270edd1-bf79-4a35-b065-e36fb7cc1e73)
+
+
