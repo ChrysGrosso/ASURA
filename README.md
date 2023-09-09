@@ -1,10 +1,12 @@
 # ASURA
 A Streamlit app to download and analyze steam reviews (video games on PC)
 
-1/ Rangez tous les dossiers les scripts .py dans un sous-dossier nommé par exemple "streamlit_app", et laissez le fichier requirements à la racine du projet ASURA
+    1/Place all the .py script files into a subfolder named, for example, "streamlit_app," and leave the requirements file at the root of the ASURA project.
 
-2/ Créez l'environnement virtuel en utilisant le fichier requirements.
+    2/Create the virtual environment using the requirements file.
 
-3/ Avec l'environnement virtuel actif, démarrez l'application Streamlit depuis le terminal de votre éditeur de code (par exemple : Visual Studio) en entrant la commande **"streamlit run app.py"**.
+    3/Download "en_core_web_sm" from Spacy (spacy -m download en_core_web_sm).
+
+    4/ With the virtual environment active, start the Streamlit application from your code editor's terminal (for example, Visual Studio) by entering the command "streamlit run app.py".
 
 ![image](https://github.com/ChrysGrosso/ASURA/assets/114347666/6270edd1-bf79-4a35-b065-e36fb7cc1e73)
