@@ -9,9 +9,9 @@ A Streamlit app to download and analyze steam reviews (video games on PC)
 
     4/ With the virtual environment active, start the Streamlit application from your code editor's terminal by entering the command "streamlit run app.py".
 
-A few screenshots: 
-
 ![image](https://github.com/ChrysGrosso/ASURA/assets/114347666/6270edd1-bf79-4a35-b065-e36fb7cc1e73)
+
+A few screenshots: 
 
 ![image](https://github.com/ChrysGrosso/ASURA/assets/114347666/a293740a-e4cc-446b-bf51-ac5f779ae778)
 ![image](https://github.com/ChrysGrosso/ASURA/assets/114347666/d560f653-d8cd-413d-b179-7879deb369f6)
