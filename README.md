@@ -18,6 +18,8 @@ A few screenshots:
 ![image](https://github.com/ChrysGrosso/ASURA/assets/114347666/c044e82a-74ba-4fe6-8874-e31ad3f9de82)
 ![image](https://github.com/ChrysGrosso/ASURA/assets/114347666/f7a18c82-94ab-4e34-9080-ab06eba74018)
 ![image](https://github.com/ChrysGrosso/ASURA/assets/114347666/db035f7a-c10e-42f5-86f0-470f570b5012)
+![image](https://github.com/ChrysGrosso/ASURA/assets/114347666/fdd4d80d-aeb1-40e7-b40a-9c229ac0ea79)
+
 
 
 
